@@ -1,0 +1,10 @@
+services:
+  mysql:
+    image: mysql:8.4.3
+    environment:
+      MYSQL_ROOT_PASSWORD: qwerty
+      MYSQL_DATABASE: spring
+      MYSQL_USER: spring
+      MYSQL_PASSWORD: spring
+    ports:
+      - 3306:3306
